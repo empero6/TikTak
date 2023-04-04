@@ -23,7 +23,6 @@ const App = () => {
         <Box sx={{ textAlign: "center", fontSize: "5rem" }}>
           {winner}
           <Box>
-            {" "}
             <Button onClick={() => resetBoard()}>Reset</Button>
           </Box>
         </Box>
